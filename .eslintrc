@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended"
+  ],
+  "plugins": [
+    "node"
+  ],
+  "reportUnusedDisableDirectives": true,
+  "env": {
+    "node": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+  }
+}
